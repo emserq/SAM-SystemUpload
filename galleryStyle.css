@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+
+h1 {
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Unica One', cursive;
+	text-shadow: 3px 3px 3px black; 
+}
+
+div.gallery {
+	margin: 20px;
+	transition: .3s;
+}
+
+div.description {
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-shadow: 2px 2px 4px black;
+}
+
+div.gallery:hover {
+  	transform: scale(1.2);
+}
+
+.back i {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	transition: all ease-in-out 250ms;
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+.back i:hover {
+	color:  #cc0066;
+	background-color: white;
+}
+
+.back {
+	text-align: center;
+}
